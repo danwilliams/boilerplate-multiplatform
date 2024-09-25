@@ -1,0 +1,26 @@
+[package]
+name                   = "test-utils"
+version                = "0.0.1"
+description            = "Internal utilities for testing"
+publish                = false
+edition.workspace      = true
+rust-version.workspace = true
+license.workspace      = true
+authors.workspace      = true
+repository.workspace   = true
+readme                 = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+#==============================[  DEPENDENCIES  ]===============================
+
+[dependencies]
+#	Internal
+server             = { workspace = true }
+
+#	External
+
+#=================================[  LINTS  ]===================================
+
+[lints]
+workspace = true

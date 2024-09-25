@@ -1,0 +1,35 @@
+[package]
+name                   = "server"
+version                = "0.4.0"
+description            = "Boilerplate webserver application based on Axum"
+categories             = ["asynchronous", "authentication", "rust-patterns", "web-programming", "web-programming::http-server"]
+keywords               = ["web", "server", "boilerplate", "example", "authentication"]
+edition.workspace      = true
+rust-version.workspace = true
+license.workspace      = true
+authors.workspace      = true
+repository.workspace   = true
+documentation          = "https://docs.rs/terracotta"
+readme                 = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+#==============================[  DEPENDENCIES  ]===============================
+
+[dependencies]
+axum               = { workspace = true }
+include_dir        = { workspace = true }
+parking_lot        = { workspace = true }
+serde              = { workspace = true }
+smart-default      = { workspace = true }
+tera               = { workspace = true }
+terracotta         = { workspace = true }
+tikv-jemallocator  = { workspace = true }
+tokio              = { workspace = true }
+tracing            = { workspace = true }
+utoipa             = { workspace = true }
+
+#=================================[  LINTS  ]===================================
+
+[lints]
+workspace = true
