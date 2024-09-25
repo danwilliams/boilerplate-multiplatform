@@ -1,0 +1,7 @@
+[bindings.swift]
+module_name = "BoilerplateLib"
+experimental_sendable_value_types = true
+
+[bindings.kotlin]
+android=true
+android_cleaner=true

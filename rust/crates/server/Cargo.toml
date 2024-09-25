@@ -24,7 +24,7 @@ serde              = { workspace = true }
 smart-default      = { workspace = true }
 tera               = { workspace = true }
 terracotta         = { workspace = true }
-tikv-jemallocator  = { workspace = true }
+tikv-jemallocator  = "0.6.0"
 tokio              = { workspace = true }
 tracing            = { workspace = true }
 utoipa             = { workspace = true }
