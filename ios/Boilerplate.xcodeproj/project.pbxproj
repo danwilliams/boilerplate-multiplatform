@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		37E5FB4A2CA4FD8C00FD1545 /* BoilerplateLib.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E5FB492CA4FD8C00FD1545 /* BoilerplateLib.xcframework */; };
+		37E5FB4B2CA4FD8C00FD1545 /* BoilerplateLib.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E5FB492CA4FD8C00FD1545 /* BoilerplateLib.xcframework */; };
+		37E5FB4C2CA4FD8C00FD1545 /* BoilerplateLib.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E5FB492CA4FD8C00FD1545 /* BoilerplateLib.xcframework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		37FC3AB42CA2F9ED00EBD0C4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37E5FB492CA4FD8C00FD1545 /* BoilerplateLib.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = BoilerplateLib.xcframework; sourceTree = "<group>"; };
 		37FC3AA32CA2F9EC00EBD0C4 /* Boilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boilerplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FC3AB32CA2F9ED00EBD0C4 /* BoilerplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoilerplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FC3ABD2CA2F9ED00EBD0C4 /* BoilerplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoilerplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37E5FB4B2CA4FD8C00FD1545 /* BoilerplateLib.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37E5FB4C2CA4FD8C00FD1545 /* BoilerplateLib.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37E5FB4A2CA4FD8C00FD1545 /* BoilerplateLib.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +85,7 @@
 		37FC3A9A2CA2F9EC00EBD0C4 = {
 			isa = PBXGroup;
 			children = (
+				37E5FB492CA4FD8C00FD1545 /* BoilerplateLib.xcframework */,
 				37FC3AA52CA2F9EC00EBD0C4 /* Boilerplate */,
 				37FC3AB62CA2F9ED00EBD0C4 /* BoilerplateTests */,
 				37FC3AC02CA2F9ED00EBD0C4 /* BoilerplateUITests */,

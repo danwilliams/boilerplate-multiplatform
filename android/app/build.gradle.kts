@@ -47,12 +47,20 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
+    sourceSets {
+        getByName("main") {
+            jniLibs.srcDirs("src/main/jniLibs")
+        }
+    }
 }
 
 dependencies {
     // Core libraries
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation(libs.jna)
+    implementation(libs.jna.platform)
+    implementation(libs.kotlinx.coroutines.core)
 
     // Compose libraries
     implementation(libs.androidx.activity.compose)

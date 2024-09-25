@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import BoilerplateLibFFI
 
 struct ContentView: View {
     var body: some View {
@@ -13,7 +14,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+			Text(greet(name: "MacOS"))
         }
         .padding()
     }
