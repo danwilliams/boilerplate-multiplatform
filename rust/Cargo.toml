@@ -22,6 +22,7 @@ lto       = "thin" # Enable link-time optimisation (fast)
 
 [workspace.dependencies]
 #	Internal
+boilerplate        = { version = "0.0.1", path = "crates/boilerplate" }
 server             = { version = "0.4.0", path = "crates/server" }
 test-data          = { version = "0.0.1", path = "crates/test-data" }
 test-utils         = { version = "0.0.1", path = "crates/test-utils" }

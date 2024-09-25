@@ -1,0 +1,24 @@
+[package]
+name                   = "boilerplate"
+version                = "0.0.1"
+description            = "Boilerplate application library for use with UniFFI"
+categories             = ["asynchronous", "rust-patterns"]
+keywords               = ["boilerplate", "example"]
+edition.workspace      = true
+rust-version.workspace = true
+license.workspace      = true
+authors.workspace      = true
+repository.workspace   = true
+documentation          = ""
+readme                 = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+#==============================[  DEPENDENCIES  ]===============================
+
+[dependencies]
+
+#=================================[  LINTS  ]===================================
+
+[lints]
+workspace = true
